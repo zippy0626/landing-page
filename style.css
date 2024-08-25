@@ -14,17 +14,14 @@ body {
 
 /* GENERAL */
 
-.logo, .link {
-    color: white;
-}
-
 li, .link {
     text-decoration: none;
     list-style: none;
 }
 
+    /* you can override individual section styling using ID */
 section {
-    height: 70vh;
+    height: 60vh;
     padding: 0 7rem 0 7rem;
 }
 
@@ -48,13 +45,73 @@ section {
     gap: 1rem;
 }
 
+.link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
     /* Logo */
 .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
     margin-right: auto;
+    user-select: none;
 }
 
 
 /* WELCOME */
+#welcome {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+    /* Main content */
+.welcome-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome-button {
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: .5rem;
+    color: #f9faf8;
+    background-color: #3882f6;
+    cursor: pointer;
+    user-select: none;
+}
+
+    /* welcome img */
+.welcome-img img {
+    width: 400px;
+}
+
+.welcome-img {
+    margin-left: auto;
+}
