@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* border box takes away space INWARDS of a box */
+    /* margin is always outside */
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* GENERAL */
+
+.logo, .link {
+    color: white;
+}
+
+li, .link {
+    text-decoration: none;
+    list-style: none;
+}
+
+section {
+    height: 70vh;
+    padding: 0 7rem 0 7rem;
+}
+
+/* NAV */
+#nav {
+    height: 10vh;
+    /* display flex is inherently flex direction row */ 
+    display: flex;
+        align-items: center;
+    background-color: #1f2937;
+    padding: 0 7rem 0 7rem;
+}
+
+    /* Links */
+.nav-links {
+    margin-left: auto; 
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 1rem;
+}
+
+    /* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+
+/* WELCOME */
