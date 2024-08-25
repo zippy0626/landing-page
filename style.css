@@ -25,6 +25,8 @@ section {
     padding: 0 7rem 0 7rem;
 }
 
+
+
 /* NAV */
 #nav {
     height: 10vh;
@@ -60,6 +62,7 @@ section {
 }
 
 
+
 /* WELCOME */
 #welcome {
     background-color: #1f2937;
@@ -72,7 +75,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 500px;
+    width: 450px;
 }
 
 .welcome-text {
@@ -88,7 +91,7 @@ section {
 }
 
 .hero-secondary-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
 }
 
@@ -114,4 +117,54 @@ section {
 
 .welcome-img {
     margin-left: auto;
+}
+
+
+
+/* CARDS */
+#cards {
+    padding-top: 2rem;
+    height: 65vh;
+}
+
+.cards-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+    /* card */
+.card {
+    width: 150px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 175px;
+}
+
+.card-img img {
+    width: 150px;
+    height: 175px;
+    border: .2rem #3882f6 solid;
+    border-radius: 1rem;
+}
+
+.card-text {
+    margin-top: .5rem;
 }
