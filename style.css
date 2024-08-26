@@ -238,3 +238,17 @@ section {
     margin-top: .2rem;
 }
 
+
+
+/* FOOTER */
+footer {
+    height: 13vh;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: lightgrey;
+}
